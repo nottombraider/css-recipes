@@ -1,0 +1,115 @@
+.aside-container {
+  width: 246px;
+  background-color: #f7fafa;
+  padding-left: var(--container-padding-left);
+  padding-right: 20px;
+  padding-bottom: 44px;
+}
+
+.aside-container,
+.portfolio-container {
+  padding-top: var(--container-indentation-s);
+}
+
+.profile-info-container {
+  width: 248px;
+  min-height: 233px;
+  margin-bottom: var(--container-indentation-s);
+}
+
+.profile-info-text {
+  margin-top: 15px;
+  line-height: 21px;
+}
+
+.interests-container {
+  width: 237px;
+  min-height: 160px;
+  margin-bottom: 39px;
+}
+
+.interests-list {
+  width: 100%;
+  min-height: 93px;
+  margin-top: 16px;
+}
+
+.interests-list > li {
+  margin-right: 27px;
+  text-align: center;
+}
+
+.interests-list > li:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.interests-list p {
+  margin-bottom: 0;
+  margin-top: 31px;
+}
+
+.reference-container {
+  margin-bottom: 38px;
+}
+
+.reference-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.reference-list > li {
+  position: relative;
+  margin-top: 6px;
+  margin-bottom: 36px;
+}
+
+.reference-list > li::before {
+  position: absolute;
+  content: "";
+  background-color: #c2c2c2;
+  width: 1px;
+  height: 70px;
+  top: 0px;
+  bottom: 0px;
+  left: 12px;
+}
+
+.reference-list li:first-child:before {
+  top: 43px;
+}
+
+.reference-list li:last-child {
+  margin-bottom: 0;
+}
+
+.reference-list li:last-child:before {
+  top: -40px;
+  height: 70px;
+}
+
+.reference-list__bullet {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 3px;
+}
+
+.reference-list__text-container {
+  margin-left: 39px;
+  line-height: 25px;
+}
+
+.reference-list-text {
+  color: #5e6fb4;
+  font-weight: 700;
+}
+
+.reference-list-sec-text {
+  color: #7f8080;
+}
+
+.certificates-list {
+  margin-top: 13px;
+  line-height: 32px;
+  list-style: none;
+}

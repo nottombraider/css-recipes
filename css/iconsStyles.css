@@ -1,0 +1,44 @@
+.fa-address-card,
+.fa-icons,
+.fa-headphones-alt,
+.fa-map-marked-alt,
+.fa-film,
+.fa-book-reader,
+.fa-laptop-house {
+  padding-top: 16px;
+  padding-left: 11.5px;
+}
+
+.fa-award {
+  padding-top: 16px;
+  padding-left: 14px;
+}
+
+.fa-headphones-alt,
+.fa-map-marked-alt,
+.fa-film {
+  color: var(--main-bg-color);
+}
+
+.icon-container {
+  width: 45px;
+  height: 46px;
+  display: inline-block;
+  background-color: var(--main-bg-color);
+  color: var(--white-text-color);
+  border-radius: var(--rounded-border);
+  margin-right: 14px;
+}
+
+.secondary-icon-container {
+  width: 44px;
+  height: 45px;
+  border: 7px solid var(--main-bg-color);
+  border-radius: var(--rounded-border);
+}
+
+.secondary-icon-container:hover {
+  -webkit-transition: border-radius 1s;
+  transition: border-radius 1s;
+  border-radius: 20px;
+}

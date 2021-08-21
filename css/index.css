@@ -1,0 +1,71 @@
+:root {
+  --main-bg-color: #000080;
+  --white-text-color: #fff;
+  --rounded-border: 50%;
+  --container-padding-left: 80px;
+  --container-padding-right: 76px;
+  --container-indentation-s: 40px;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+i {
+  margin-right: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  min-height: calc(100vh - 252px - 72px);
+  height: auto;
+  overflow: auto;
+}
+
+h1:hover,
+li:hover {
+  transform: translateY(-10px);
+}
+
+.inline-block-container > * {
+  display: inline-block;
+}
+
+.vertical-align_top {
+  vertical-align: top;
+}

@@ -1,0 +1,14 @@
+.footer {
+  height: 72px;
+  padding-left: 79px;
+  background-color: var(--main-bg-color);
+  color: var(--white-text-color);
+}
+
+.footer p {
+  padding-top: 25px;
+}
+
+.footer a {
+  color: var(--white-text-color);
+}
